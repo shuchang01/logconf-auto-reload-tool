@@ -1,3 +1,9 @@
+# eclipse IDE
+/.settings/
+.classpath
+.project
+
+# maven3.0+
 /pom.xml.versionsBackup
 /target/
 /out/

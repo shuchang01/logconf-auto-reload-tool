@@ -1,4 +1,6 @@
 ### log4j(slf4j) 日志动态升降级实现方案   
+*java7-auto-reload-of-configuration-when-any-change-happen*   
+
 
 **使用说明** 
 1. 请参考 com.chris.log.listener.MyLog4jConfigListener 类文件中的使用说明  

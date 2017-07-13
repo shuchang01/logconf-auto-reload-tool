@@ -18,7 +18,7 @@
 				<enabled>true</enabled>
 			</releases>
 		</repository>
-		<!-- 罗湖教育网maven仓库 -->
+		<!-- LH maven仓库 -->
 		<repository>
 			<id>nexus-byph</id>
 			<name>nexus-byph-repo</name>
@@ -488,7 +488,7 @@
 		   <version>2.9.2</version>
 		</dependency>
 		 -->
-		<!-- byph-web-common -->
+		<!-- byph-web-common 
         <dependency>
         	<groupId>com.byph</groupId>
         	<artifactId>byph-web-common</artifactId>
@@ -500,6 +500,7 @@
         		</exclusion>
         	</exclusions>
         </dependency>
+        -->
         <!-- Google Core Libraries for Java -->
         <dependency>
 			<groupId>com.google.guava</groupId>
