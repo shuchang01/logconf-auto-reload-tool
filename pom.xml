@@ -18,11 +18,11 @@
 				<enabled>true</enabled>
 			</releases>
 		</repository>
-		<!-- LH maven仓库 -->
+		<!-- chris nexus-maven-repo -->
 		<repository>
-			<id>nexus-byph</id>
-			<name>nexus-byph-repo</name>
-			<url>http://219.223.5.70/nexus/content/groups/public/</url>
+			<id>nexus-chris</id>
+			<name>nexus-chris-repo</name>
+			<url>http://120.78.59.68:8888/nexus/content/groups/public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -41,9 +41,9 @@
 			</snapshots>
 		</pluginRepository>
 		<pluginRepository>
-			<id>nexus-byph</id>
-			<name>nexus-byph-repo</name>
-			<url>http://219.223.5.70/nexus/content/groups/public/</url>
+			<id>nexus-chris</id>
+			<name>nexus-chris-repo</name>
+			<url>http://120.78.59.68:8888/nexus/content/groups/public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -55,14 +55,14 @@
 	
 	<distributionManagement>
 		<repository>
-			<id>nexus-byph-releases</id>
-			<name>nexus-byph-repo-releases</name>
-			<url>http://219.223.5.70/nexus/content/repositories/releases/</url>
+			<id>nexus-chris-releases</id>
+			<name>nexus-chris-repo-releases</name>
+			<url>http://120.78.59.68:8888/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
-			<id>nexus-byph-snapshots</id>
-			<name>nexus-byph-repo-snapshots</name>
-			<url>http://219.223.5.70/nexus/content/repositories/snapshots/</url>
+			<id>nexus-chris-snapshots</id>
+			<name>nexus-chris-repo-snapshots</name>
+			<url>http://120.78.59.68:8888/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
